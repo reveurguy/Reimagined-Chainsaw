@@ -4,9 +4,9 @@ function info() {
     console.log("INFO")
     const response = {
         apiversion: "1",
-        author: "codewench",
+        author: "reveurguy",
         color: "#FF3366",
-        head: "pixel",
+        head: "trans-rights-scarf",
         tail: "hook"
     }
     return response
