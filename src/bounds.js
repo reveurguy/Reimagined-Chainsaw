@@ -20,10 +20,10 @@ function safeMoves(head, bounds) {
     if (head.y === 0) {
         possibleMoves.push('down') = false
     }
-    if (head.y === boardHeight - 1) {
+    if (head.y === bounds.height - 1) {
         possibleMoves.push('up') = false
     }
-    if (head.x === boardWidth - 1) {
+    if (head.x === bounds.width - 1) {
         possibleMoves.push('right') = false
     }
     if (head.x === 0) {
