@@ -38,7 +38,8 @@ function move(gameState) {
         move: move,
         shout: shout
     }
-    
+
+    console.log(gameState.board)
     return response
 }
 
