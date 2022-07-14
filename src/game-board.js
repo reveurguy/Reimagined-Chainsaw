@@ -1,12 +1,12 @@
 const bounds = require('./bounds.js');
 const self = require('./self.js');
-const hazard = require('./hazard');
+const hazards = require('./hazards');
 const food = require('./food')
 
 function safeMoves(head, body, board) {
     const withinBounds = bounds.safeMoves(head, board);
     const notSelf = self.safeMoves(head, body);
-    const noHazards = hazard.safeMoves(head, board);
+    const noHazards = hazards.safeMoves(head, board);
 
     // console.log("game-board-safe", withinBounds, notSelf, noHazards);
 
