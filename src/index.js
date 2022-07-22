@@ -31,4 +31,4 @@ app.listen(port, () => {
 
 setInterval(() => {
   http.get("http://rev-battlesnake2.herokuapp.com/");
-}, 5 * 60 * 1000); // every 5 minutes
+}, 25 * 60 * 1000); // every 25 minutes
